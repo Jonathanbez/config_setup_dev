@@ -3,7 +3,7 @@
 #Instalar RVM
 \curl -sSL https://get.rvm.io | bash
 #Adicionar permições para RVM no $USER
-rvm group add rvm "$USER"
+echo "source $HOME/.rvm/scripts/rvm" >> ~/.zshrc
 #Atualizar as permissões adicionadas
 rvm fix-permissions
 su - $USER
