@@ -15,7 +15,7 @@ sudo apt install gcc make
 # Instale o zsh
 sudo apt install zsh
 
-# Instale o ohmyzsh
+# Instale o ohmyzsh (apos instalar o ohmyzsh ele ira pedir confirmação para tornar zsh como SHELL padrão)
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
 # Instale o gerenciador de versões Ruby, verifique o link do RMV para instalar o RVM
@@ -42,4 +42,4 @@ git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-m
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
 
 # Incluir no campo pligins do .zshrc
-# plugins=(git zsh-autosuggestions zsh-syntax-highlighting)
+# Ex.: plugins=(zsh-autosuggestions zsh-syntax-highlighting)
