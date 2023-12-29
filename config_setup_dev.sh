@@ -18,6 +18,9 @@ sudo apt install zsh -y
 # Instale o ohmyzsh (apos instalar o ohmyzsh ele ira pedir confirmação para tornar zsh como SHELL padrão)
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
+# Instale o VIM
+sudo apt install vim -y
+
 # Instale o gerenciador de versões Ruby, verifique o link do RMV para instalar o RVM
 # https://github.com/rvm/ubuntu_rvm
 sudo apt-get install software-properties-common
