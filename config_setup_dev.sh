@@ -23,7 +23,7 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 sudo apt-get install software-properties-common
 sudo apt-add-repository -y ppa:rael-gc/rvm
 sudo apt-get update
-sudo apt-get install rvm
+sudo apt-get install rvm -y
 sudo usermod -a -G rvm $USER
 echo 'source "/etc/profile.d/rvm.sh"' >> ~/.zshrc
 
