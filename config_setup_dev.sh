@@ -13,7 +13,7 @@ sudo apt install libssl-dev zlib1g-dev libreadline-dev libsqlite3-dev -y
 sudo apt install gcc make
 
 # Instale o zsh
-sudo apt install zsh 
+sudo apt install zsh -y
 
 # Instale o ohmyzsh (apos instalar o ohmyzsh ele ira pedir confirmação para tornar zsh como SHELL padrão)
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
