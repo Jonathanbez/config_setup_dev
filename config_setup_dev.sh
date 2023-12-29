@@ -4,16 +4,16 @@
 sudo apt update && sudo apt upgrade -y
 
 # Instale as ferramentas básicas de desenvolvimento
-sudo apt install git curl build-essential
+sudo apt install git curl build-essential -y
 
 # Instale as bibliotecas necessárias para C
-sudo apt install libssl-dev zlib1g-dev libreadline-dev libsqlite3-dev
+sudo apt install libssl-dev zlib1g-dev libreadline-dev libsqlite3-dev -y
 
 # Instale o compilador C (por padrão, vem preinstalado no Ubuntu, mas por via das duvidas)
 sudo apt install gcc make
 
 # Instale o zsh
-sudo apt install zsh
+sudo apt install zsh 
 
 # Instale o ohmyzsh (apos instalar o ohmyzsh ele ira pedir confirmação para tornar zsh como SHELL padrão)
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
