@@ -1,4 +1,4 @@
-#!bin/bash
+#!/bin/sh
 
 # Atualizar pacote do OS
 sudo apt update && sudo apt upgrade -y
