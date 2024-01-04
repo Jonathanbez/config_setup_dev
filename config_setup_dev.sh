@@ -30,8 +30,8 @@ sudo apt-get install rvm -y
 sudo usermod -a -G rvm $USER
 echo 'source "/etc/profile.d/rvm.sh"' >> ~/.zshrc
 
-# Reinicie o computador
-reboot
+# Aconselho a Reinicie o computador
+#reboot
 
 # Instale o Ruby
 rvm install 3.2.2
