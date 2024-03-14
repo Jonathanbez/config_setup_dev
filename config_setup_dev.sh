@@ -26,7 +26,7 @@ sudo apt install vim -y
 # https://github.com/rvm/ubuntu_rvm
 sudo apt-get install software-properties-common
 sudo apt-add-repository -y ppa:rael-gc/rvm
-sudo apt-get update
+sudo apt-get update -y
 sudo apt-get install rvm -y
 sudo usermod -a -G rvm $USER
 echo 'source "/etc/profile.d/rvm.sh"' >> ~/.zshrc
@@ -56,6 +56,9 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:
 sudo apt remove neovim --purge
 sudo apt autoremove autoclean clean
 # Instale as dependências necessárias:
+Sudo apt update -y
+sudo apt install git build-essential cmake git pkg-config libtool g++ libunibilium4 libunibilium-dev \
+ninja-build gettext libtool libtool-bin autoconf automake unzip curl doxygen lua-term lua-term-dev luarocks -y
 
 
 
