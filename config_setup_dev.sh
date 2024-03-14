@@ -52,9 +52,10 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:
 # Ex.: plugins=(zsh-autosuggestions zsh-syntax-highlighting)
 
 # Instalar NEOVIM (versao mais recente usando o repositorio oficial no GitHub)
-#Antes de tudo remova o Neovim do seu sistema:
+# Antes de tudo remova o Neovim do seu sistema (talvez ja tenha instalado por engano ou já venha com o OS usado)
 sudo apt remove neovim --purge
 sudo apt autoremove autoclean clean
+# Instale as dependências necessárias:
 
 
 
