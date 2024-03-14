@@ -1,4 +1,5 @@
 #!/bin/sh
+#!/bin/bash
 
 # Atualizar pacote do OS
 sudo apt update && sudo apt upgrade -y
@@ -49,3 +50,8 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:
 
 # Incluir no campo plugins do .zshrc
 # Ex.: plugins=(zsh-autosuggestions zsh-syntax-highlighting)
+
+# Instalar NEOVIM (versao mais recente usando o repositorio oficial no GitHub)
+sudo apt remove neovim --purge
+sudo apt autoremove autoclean clean
+
