@@ -19,23 +19,7 @@ sudo apt install zsh -y
 # Instale o ohmyzsh (apos instalar o ohmyzsh ele ira pedir confirmação para tornar zsh como SHELL padrão)
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
-# Instale o gerenciador de versões Ruby, verifique o link do RMV para instalar o RVM
-# https://github.com/rvm/ubuntu_rvm
-sudo apt-get install software-properties-common
-sudo apt-add-repository -y ppa:rael-gc/rvm
-sudo apt-get update -y
-sudo apt-get install rvm -y
-sudo usermod -a -G rvm $USER
-echo 'source "/etc/profile.d/rvm.sh"' >> ~/.zshrc
 
-# Aconselho a Reinicie o computador
-#reboot
-
-# Instale o Ruby
-rvm install 3.2.2
-
-# Instale o Rails
-gem install rails
 
 # Instalar Zsh Autosuggestions
 # https://github.com/zsh-users/zsh-autosuggestions
