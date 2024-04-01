@@ -33,7 +33,9 @@ git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-m
 
 #### Instalar Zsh Syntax Highlighting
 #### https://github.com/zsh-users/zsh-syntax-highlighting
-```git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting```
+```
+git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
+```
 
 #### Incluir no campo plugins do .zshrc
 #### Ex.: plugins=(zsh-autosuggestions zsh-syntax-highlighting)
@@ -53,10 +55,14 @@ echo 'source "/etc/profile.d/rvm.sh"' >> ~/.zshrc
 #### reboot
 
 #### Instale o Ruby
-```rvm install 3.2.2```
+```
+rvm install 3.2.2
+```
 
 #### Instale o Rails
-```gem install rails```
+```
+gem install rails
+```
 
 #### Instalar NEOVIM (versao mais recente usando o repositorio oficial no GitHub)
 #### Antes de tudo remova o Neovim do seu sistema (talvez ja tenha instalado por engano ou já venha com o OS usado)
