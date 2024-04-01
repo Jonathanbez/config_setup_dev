@@ -16,8 +16,9 @@ sudo apt install git curl build-essential -y
 sudo apt install libssl-dev zlib1g-dev libreadline-dev libsqlite3-dev -y
 ```
 ### Instale o compilador C (por padrão, vem preinstalado no Ubuntu, mas por via das duvidas)
+```
 sudo apt install gcc make
-
+``
 ### Instale o zsh
 sudo apt install zsh -y
 
