@@ -4,14 +4,17 @@ Files to configure dev setup.
 or install and config using line to line.
 
 ### Atualizar pacote do OS
+```shell
 sudo apt update && sudo apt upgrade -y
-
+``` 
 ### Instale as ferramentas básicas de desenvolvimento
+```shel
 sudo apt install git curl build-essential -y
-
+```
 ### Instale as bibliotecas necessárias para C
+```shel
 sudo apt install libssl-dev zlib1g-dev libreadline-dev libsqlite3-dev -y
-
+```
 ### Instale o compilador C (por padrão, vem preinstalado no Ubuntu, mas por via das duvidas)
 sudo apt install gcc make
 
